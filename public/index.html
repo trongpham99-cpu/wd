@@ -178,11 +178,17 @@
 
       <div data-aos="fade-up" data-aos-easing="linear">
         <div class="nama-lengkap">
-          GIOAN BAOTIXITA LÊ THIỆN HẢO
+          GIOAN BAOTIXITA
+        </div>
+        <div class="nama-lengkap-font">
+          LÊ THIỆN HẢO
         </div>
         <div class="ampersand">&</div>
         <div class="nama-lengkap">
-          ANNA TRẦN THỊ MẠNH LINH
+          ANNA
+        </div>
+        <div class="nama-lengkap-font">
+          TRẦN THỊ MẠNH LINH
         </div>
       </div>
       <span class="space40px"></span>
@@ -230,31 +236,8 @@
     </section>
     <!-- End Waktu Content -->
 
-    <!-- Begin Lokasi Section -->
-    <section class="section-darker" id="lokasi">
-      <div class="container">
-        <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-          <h1 style="color: #DDE6ED;" class="title has-text-centered section-title">Địa điểm</h1>
-          <p style="color: #DDE6ED;" class="tempat is-larger has-text-centered">
-            <strong style="color: #DDE6ED;">Nhà hàng Adora Center</strong>
-            <br>
-            431 Hoàng Văn Thụ, Phường 4, Quận Tân Bình, Thành phố Hồ Chí Minh
-            <br>
-          </p>
-        </div>
-        <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d823.4703412649225!2d106.65872378117675!3d10.798000246194952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529d96e56d9bd%3A0x205428f74d7f4ddb!2sThe%20ADORA%20Center!5e0!3m2!1svi!2s!4v1709200553659!5m2!1svi!2s"
-            width="100%" height="600" frameborder="0" style="border:0; border-radius: 10px;"
-            allowfullscreen=""></iframe>
-        </div>
-        <div class="space40px"></div>
-      </div>
-    </section>
-    <!-- End Lokasi Content -->
-
     <!-- Begin Tentang Sherly and Daeng -->
-    <!-- <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
+    <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
       <div class="container">
         <div class="columns is-multiline">
           <div class="column has-text-centered is-12 prolog">
@@ -297,8 +280,31 @@
 
           </div>
         </div>
-    </section> -->
+    </section>
     <!-- End Tentang Sherly dan Daeng -->
+
+    <!-- Begin Lokasi Section -->
+    <section class="section-darker" id="lokasi">
+      <div class="container">
+        <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+          <h1 style="color: #DDE6ED;" class="title has-text-centered section-title">Địa điểm</h1>
+          <p style="color: #DDE6ED;" class="tempat is-larger has-text-centered">
+            <strong style="color: #DDE6ED;">Nhà hàng Adora Center</strong>
+            <br>
+            431 Hoàng Văn Thụ, Phường 4, Quận Tân Bình, Thành phố Hồ Chí Minh
+            <br>
+          </p>
+        </div>
+        <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d823.4703412649225!2d106.65872378117675!3d10.798000246194952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529d96e56d9bd%3A0x205428f74d7f4ddb!2sThe%20ADORA%20Center!5e0!3m2!1svi!2s!4v1709200553659!5m2!1svi!2s"
+            width="100%" height="600" frameborder="0" style="border:0; border-radius: 10px;"
+            allowfullscreen=""></iframe>
+        </div>
+        <div class="space40px"></div>
+      </div>
+    </section>
+    <!-- End Lokasi Content -->
 
     <!-- Begin RSVP Content -->
     <section class="section-dark contact" id="rsvp">
@@ -350,10 +356,9 @@
       </div>
     </section>
     <!-- End RSVP Content -->
-    <audio controls autoplay loop id="audio" style="display: none;">
-      <source src="./music.mp3" type="audio/ogg">
-      <source src="./music.mp3" type="audio/mpeg">
-      Your browser does not support the audio tag.
+    <audio controls autoplay loop id="audio-tags-LTH" style="display: none;">
+      <source src="./ALOHA.mp3" type="audio/ogg">
+      <source src="./ALOHA.mp3" type="audio/mpeg">
     </audio>
   </div>
   <!-- End Main Content -->
@@ -363,12 +368,12 @@
   <script src="js/menikah.js"></script>
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="./js/index.js"></script>
   <script>
     AOS.init({
       easing: "ease-out",
       duration: 800,
     });
-    //count down time 
     var countDownDate = new Date("Apr 6, 2024 17:00:00").getTime();
     var x = setInterval(function () {
       var now = new Date().getTime();
