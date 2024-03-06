@@ -23,10 +23,10 @@ html {
 .navbar-item {
   line-height: 38px;
   font-weight: 600;
-  text-transform: ;
+  text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1rem;
-  box-shadow: ;
+  box-shadow: none;
 }
 
 .navbar-item.is-active {
@@ -92,7 +92,7 @@ html {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
   line-height: 38px;
   font-weight: 600;
-  text-transform: ;
+  text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1rem;
 }
@@ -129,12 +129,13 @@ html {
 .main-content {
   padding-top: 2rem;
   color: #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
 }
 
 .main-content .section-dark {
   background-color: #526D82;
   padding: 80px 40px;
+  font-weight: sans-serif !important;
 }
 
 .main-content .section-darker {
@@ -202,10 +203,6 @@ html {
   transform: scale(1.055) translateY(-2px);
   -webkit-box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
   box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
-}
-
-.section-map {
-  padding: 0 0 0 0;
 }
 
 .main-content .section-light {
@@ -327,20 +324,19 @@ html {
 
 .waktu {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
+  font-family:  sans-serif;
 }
 
 .tanggal-angka {
   font-size: 5rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   font-weight: 900;
   line-height: 1;
 }
 
 .tempat {
   font-size: 1.4rem;
-  font-family: 'Raleway', sans-serif;
-  font-size: ;
+  font-family: sans-serif;
   margin-bottom: 50px;
 }
 
@@ -667,12 +663,12 @@ body.preloader-site {
 .instagram {
   color: #996E6D;
   font-size: 1.25rem;
-  font-weight: 900;
   margin-top: 0.5rem;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
   padding: 10px;
+  font-family: sans-serif;
 }
 
 .container-images {

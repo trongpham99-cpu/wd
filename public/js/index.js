@@ -1,2 +1,6 @@
-const audio = document.getElementById("audio-tags-LTH")
-audio.play()
+var audio = new Audio();
+audio.src = './ALOHA.mp3';
+
+window.onclick = function () {
+    audio.play();
+};
