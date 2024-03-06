@@ -40,7 +40,7 @@ html {
 
 .hero {
   background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgb(120 173 198 / 65%), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url(../image/background.jpeg) no-repeat;
+  background: linear-gradient(rgb(120 173 198 / 65%), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url(https://res.cloudinary.com/dblpwxmnh/image/upload/v1709714870/Le-Thien-Hao/background_avckrs.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -587,7 +587,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: url("../../images/KMUT7551.JPG");
+  background-image: url("https://res.cloudinary.com/dblpwxmnh/image/upload/v1709714785/Le-Thien-Hao/KMUT7551_eyszkt.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
