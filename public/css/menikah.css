@@ -755,3 +755,9 @@ body.preloader-site {
   /* grid-column: 5 / span 4; */
   /* grid-row: 6 / span 3; */
 }
+
+.carouselExampleControls {
+  width: 50% !important;
+  margin: 0 auto;
+  display: block;
+}
