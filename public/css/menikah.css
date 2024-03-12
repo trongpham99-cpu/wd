@@ -344,14 +344,14 @@ html {
 }
 
 .waktu {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-family: sans-serif;
   font-family: "Noto Sans HK", sans-serif;
   font-style: normal;
 }
 
 .tanggal-angka {
-  font-size: 5rem;
+  font-size: 7rem;
   font-family: sans-serif;
   font-weight: 900;
   line-height: 1;
@@ -780,4 +780,10 @@ body.preloader-site {
   cursor: pointer;
   width: 30%;
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+.qrcode {
+  width: 20%;
+  border-radius: 10px;
+  margin-top: -60px;
 }
